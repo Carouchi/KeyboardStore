@@ -1,0 +1,46 @@
+.shopwrapper {
+	display: flex;
+	flex-direction: column;
+
+	.shopheader {
+		display: flex;
+		font-size: 30px;
+		justify-content: center;
+		align-items: center;
+		font-family: Chakra Petch;
+		margin-top: 15px;
+		margin-bottom: 20px;
+	}
+
+	.shopitems {
+		font-family: Chakra Petch;
+		font-size: 30px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 50px;
+
+		ol {
+			column-count: 3;
+			column-gap: 40px;
+		}
+	}
+
+	input {
+		display: flex;
+		margin: auto;
+		font-size: 35px;
+		width: 25%;
+		text-align: center;
+		margin-top: 40px;
+		margin-bottom: 15px;
+	}
+
+	button {
+		display: flex;
+		margin: auto;
+		margin-top: 20px;
+		font-size: 20px;
+		width: 15%;
+	}
+}
